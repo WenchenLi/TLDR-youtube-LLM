@@ -21,6 +21,14 @@ update your key in .env and
 
 2-add user notebook to let user organize the info aquired, not limited by number of notebook like notebookLLM
 
+## issue
+for issue like
+```
+Error: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=kwivhbXLg9Q! This is most likely caused by:
+
+Subtitles are disabled for this video
+```
+you need to run locally given the google restriction mostlikely. 
 
 ##
 License: CC BY-NC 4.0
