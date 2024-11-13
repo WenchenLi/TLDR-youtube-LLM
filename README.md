@@ -5,6 +5,11 @@ If you feel watching youtube is too much time consumed just to aquire some info 
 
 We let the LLM to read the script with corresponding timestamp so you can easily ask and navigate the content in your control than you have to watch the whole thing. 
 
+![screencapture-localhost-8501-2024-11-12-23_01_35](https://github.com/user-attachments/assets/7b732c70-5cb1-4045-8578-c2898e652016)
+
+![screencapture-tldr-youtube-llm-streamlit-app-2024-11-12-23_02_07](https://github.com/user-attachments/assets/f865c1e5-7f9d-4162-af61-e65aad75d307)
+
+
 ## run
 update your key in .env and 
 `streamlit run main.py`
