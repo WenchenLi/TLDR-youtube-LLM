@@ -11,8 +11,12 @@ We let the LLM to read the script with corresponding timestamp so you can easily
 
 
 ## run
+`pip install -r requirements.txt`
+
 update your `CLAUDE_API_KEY` in .env and 
 `streamlit run main.py`
+
+running locally is better since it seems youtube block loading script through streamlit cloud for some videos. 
 
 
 ## TODO
