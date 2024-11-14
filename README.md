@@ -7,19 +7,17 @@ We let the LLM to read the script with corresponding timestamp so you can easily
 - **summarize the video with key points:** initiate the youtube with keypoints summarzied to start the conversation
 - **support jump to to the keypoint in video:** parse the script to support you jump to the youtube video at certain timestamp when it talks about that point
 
-![screencapture-localhost-8501-2024-11-12-23_01_35](https://github.com/user-attachments/assets/7b732c70-5cb1-4045-8578-c2898e652016)
-
-![screencapture-tldr-youtube-llm-streamlit-app-2024-11-12-23_02_07](https://github.com/user-attachments/assets/f865c1e5-7f9d-4162-af61-e65aad75d307)
-
-
 ## run 
 `pip install -r requirements.txt`
 
 update your `CLAUDE_API_KEY` in .env and 
 `streamlit run main.py`
 
-running locally is way much better since it seems youtube block loading script through streamlit cloud for some videos also streamlit on cloud runs inconsistently funny with the localhost version. 
+Running locally is **way much better** since it seems youtube block loading script through streamlit cloud for some videos also streamlit on cloud runs inconsistently funny with the localhost version. 
 
+![screencapture-localhost-8501-2024-11-12-23_01_35](https://github.com/user-attachments/assets/7b732c70-5cb1-4045-8578-c2898e652016)
+
+![screencapture-tldr-youtube-llm-streamlit-app-2024-11-12-23_02_07](https://github.com/user-attachments/assets/f865c1e5-7f9d-4162-af61-e65aad75d307)
 
 ## TODO/roadmap
 
