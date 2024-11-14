@@ -10,13 +10,13 @@ We let the LLM to read the script with corresponding timestamp so you can easily
 ![screencapture-tldr-youtube-llm-streamlit-app-2024-11-12-23_02_07](https://github.com/user-attachments/assets/f865c1e5-7f9d-4162-af61-e65aad75d307)
 
 
-## run
+## run 
 `pip install -r requirements.txt`
 
 update your `CLAUDE_API_KEY` in .env and 
 `streamlit run main.py`
 
-running locally is better since it seems youtube block loading script through streamlit cloud for some videos. 
+running locally is way much better since it seems youtube block loading script through streamlit cloud for some videos also streamlit on cloud runs inconsistently funny with the localhost version. 
 
 
 ## TODO
@@ -25,7 +25,9 @@ running locally is better since it seems youtube block loading script through st
 
 2-add user notebook to let user organize the info aquired, not limited by number of notebook like notebookLLM
 
-## issue
+3-next js true web app than a toy streamlit
+
+## issue with online streamlit
 for issue like
 ```
 Error: Could not retrieve a transcript for the video https://www.youtube.com/watch?v=kwivhbXLg9Q! This is most likely caused by:
