@@ -1,9 +1,11 @@
 # TLDR-youtube-LLM
 Youtube for people with no patience-aka TLDR youtube with help of LLM to speed up the information gathering and learnining.
-
 If you feel watching youtube is too much time consumed just to aquire some info and knowledge but you still want to learn more with better efficiency, this app is for you. 
-
 We let the LLM to read the script with corresponding timestamp so you can easily ask and navigate the content in your control than you have to watch the whole thing. 
+
+##  Key Features:🚀 Time saving youtube watching/chatting
+- **summarize the video with key points:** initiate the youtube with keypoints summarzied to start the conversation
+- **support jump to to the keypoint in video:** parse the script to support you jump to the youtube video at certain timestamp when it talks about that point
 
 ![screencapture-localhost-8501-2024-11-12-23_01_35](https://github.com/user-attachments/assets/7b732c70-5cb1-4045-8578-c2898e652016)
 
@@ -19,13 +21,14 @@ update your `CLAUDE_API_KEY` in .env and
 running locally is way much better since it seems youtube block loading script through streamlit cloud for some videos also streamlit on cloud runs inconsistently funny with the localhost version. 
 
 
-## TODO
+## TODO/roadmap
 
-1-add user memory layer to better navigate the conversation
+1-add user memory layer to better navigate the conversation with user understanding
 
-2-add user notebook to let user organize the info aquired, not limited by number of notebook like notebookLLM
+2-add user notebook to let user organize the info aquired, not limited by 50 notebooks like notebookLLM
 
-3-next js true web app than a toy streamlit
+3-build next js true web app than a toy streamlit
+
 
 ## issue with online streamlit
 for issue like
@@ -34,7 +37,7 @@ Error: Could not retrieve a transcript for the video https://www.youtube.com/wat
 
 Subtitles are disabled for this video
 ```
-you need to run locally given the google restriction mostlikely. 
+you need to run locally for best experience given the google restriction.
 
 ##
 License: CC BY-NC 4.0
